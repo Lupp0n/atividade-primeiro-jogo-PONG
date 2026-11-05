@@ -1,0 +1,19 @@
+INTELIGÊNCIA ARTIFICIAL DO INIMIGO
+
+a ideia é que o PONG tenha a opção de jogar contra a máquina ou outro jogador
+na aula agora é chegada a parte de fazer a IA do inimigo, já temos o segundo jogador como padrão, podendo controlar a segunda raquete livremente.
+as partes dadas pelo professor são:
+
+1 - criar uma variável de controle que determina se quem está no comando da segunda raquete é a IA ou o segundo player
+2 - fazer com que o jogador número 2 controle a raquete correspondente APENAS quando o jogo estiver selecionado para ser jogado por dois jogadores
+
+como fazer isso? - especulações
+
+ao meu ver, isso parece algo a ser definido por uma variavel global, o jogo precisa ser iniciado no modo um jogador, então os comandos do segundo tem que iniciar desligados
+já como colocar isso em prática, é a dificuldade pra mim.
+
+funcionaria se colocasse por exemplo, uma condição em toda a programação da segunda raquete que se a IA for verdade, então não é pra executar nada dos códigos escritos ali?
+fazendo com que ao selecionar a opção "dois jogadores", essa libere os comandos do segundo jogador, permitindo o uso do código feito ali.
+
+agora, o que seria e como seria a IA?
+fazer a raquete seguir a bola no eixo y sozinha, não parece tão difícil, mas balancear isso para que a raquete 2 não seja invencível ou fácil demais é que soa complicado.
